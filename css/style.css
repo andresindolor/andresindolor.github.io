@@ -1390,12 +1390,12 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /*--------------------------------------------------------------------------------------------*/
 .beVolunteer {
   padding: 169px 0;
-  background: url(http://themedesigner.in.dimgx.net/demo/Helping-Hands/images/beVolunteer.jpg) no-repeat fixed center 0;
+  background: url(../images/beVolunteer.jpg) no-repeat fixed center 0;
   -webkit-background-size: cover;
   background-size: cover;
 }
 .beVolunteer.sponsor_variation {
-  background-image: url(http://themedesigner.in.dimgx.net/demo/Helping-Hands/images/sponsors2.jpg);
+  background-image: url(../images/sponsors2.jpg);
 }
 
 .beVolunteerBox {
@@ -1587,7 +1587,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url(http://themedesigner.in.dimgx.net/demo/Helping-Hands/images/sponsors.jpg) repeat fixed center center;
+  background: url(../images/sponsors.jpg) repeat fixed center center;
   opacity: .10;
   z-index: 0;
 }
@@ -1611,7 +1611,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 .sponsor_banner.style2:before {
   opacity: 0.9;
-  background-image: url(http://themedesigner.in.dimgx.net/demo/Helping-Hands/images/world-map2.png);
+  background-image: url(../images/world-map2.png);
 }
 .sponsor_banner.style2 .container {
   max-width: 460px;
@@ -2210,7 +2210,15 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 
 /*--------------------------------------------------------------------------------------------*/
 .page-header {
-  background: url(http://themedesigner.in.dimgx.net/demo/Helping-Hands/images/page-header.jpg) no-repeat scroll center top;
+  background: url(../images/letter-min.jpg) no-repeat scroll center top;
+  text-transform: uppercase;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding-bottom: 0;
+}
+
+.error-header {
+  background: url(../images/rain.png) no-repeat scroll center top;
   text-transform: uppercase;
   -webkit-background-size: cover;
   background-size: cover;

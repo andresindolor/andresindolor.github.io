@@ -7,16 +7,42 @@
     
     .sectionTitle{
         h3{
-            color: #fff;
+            //color: #fff;
+            color: #6e7c8d;
         }
     }
     p{        
-        color: #fff;
+            //color: #fff;
+            color: #6e7c8d;
     }
     &.style2{
         background: $dark;
         p{
-            color: #aebcce;
+            //color: #aebcce;
+            color: #6e7c8d;
+        }
+    }
+}
+
+.sponsor_banner2{
+    background: $green;
+	
+	.label{
+		background-color: $dark;
+	}
+    
+    .sectionTitle{
+        h3{
+            //color: #fff;
+        }
+    }
+    p{        
+        //color: #fff;
+    }
+    &.style2{
+        background: $dark;
+        p{
+            //color: #aebcce;
         }
     }
 }
