@@ -769,7 +769,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   }
 }
 .featured_events .event_box {
-  max-width: 380px;
+  max-width: 420px;
 }
 @media (max-width: 991px) {
   .featured_events .event_box {
