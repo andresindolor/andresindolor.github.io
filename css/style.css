@@ -2218,7 +2218,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 
 .error-header {
-  background: url(../images/rain.png) no-repeat scroll center top;
+  background: url(../images/rain.PNG) no-repeat scroll center top;
   text-transform: uppercase;
   -webkit-background-size: cover;
   background-size: cover;
