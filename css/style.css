@@ -474,7 +474,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   line-height: 45px;
 }
 .logo a img {
-  max-height: 37px;
+  max-height: 55px;
 }
 
 .language_picker {
@@ -1390,7 +1390,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /*--------------------------------------------------------------------------------------------*/
 .beVolunteer {
   padding: 169px 0;
-  background: url(../images/beVolunteer.jpg) no-repeat fixed center 0;
+  background: url(../images/andre11.jpg) no-repeat fixed center 0;
   -webkit-background-size: cover;
   background-size: cover;
 }
