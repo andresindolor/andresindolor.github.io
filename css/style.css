@@ -267,9 +267,21 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   font-weight: bold;
   margin-bottom: 0;
 }
+
+.sectionTitle h4 {
+  margin-top: 18px;
+  line-height: 36px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 0;
+}
 @media (max-width: 767px) {
   .sectionTitle h3 {
     font-size: 20px;
+    line-height: 26px;
+  }
+    
+  .sectionTitle h4 {
+    font-size: 18px;
     line-height: 26px;
   }
 }

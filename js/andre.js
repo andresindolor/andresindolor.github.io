@@ -39,4 +39,16 @@ function initializeClock(id, endtime){
     var timeinterval = setInterval(updateClock,1000);
 }
 
-initializeClock('clockdiv', deadline);
+function setDaysLeft(id, idPorcentaje, endtime){
+    var element = document.getElementById(id);
+    var porcentajeText = document.getElementById(idPorcentaje);
+    
+    var t = getTimeRemaining(endtime);
+    var daysLeft = Math.floor(((60-t.days)*100)/60);
+    element.setAttribute("aria-valuenow", daysLeft);
+    
+    var daysSpan = porcentajeText.querySelector('.counter');
+    daysSpan.innerHTML = daysLeft;
+    
+}
+
