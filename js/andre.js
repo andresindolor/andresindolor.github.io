@@ -1,4 +1,4 @@
-var deadline = '2016-11-10';
+var deadline = '2016-12-15';
 
 function getTimeRemaining(endtime){
   var t = Date.parse(endtime) - Date.parse(new Date());
@@ -44,7 +44,7 @@ function setDaysLeft(id, idPorcentaje, endtime){
     var porcentajeText = document.getElementById(idPorcentaje);
     
     var t = getTimeRemaining(endtime);
-    var daysLeft = Math.floor(((60-t.days)*100)/60);
+    var daysLeft = Math.floor(((90-t.days)*100)/90);
     element.setAttribute("aria-valuenow", daysLeft);
     
     var daysSpan = porcentajeText.querySelector('.counter');
